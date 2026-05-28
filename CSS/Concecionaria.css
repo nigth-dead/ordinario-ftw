@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+    color: white;
+    height: 45px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#img_inicio{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    height: 40px;
+    background-color: #1f2937;
+}
+
+li{
+    display: inline-block;
+    border-right: 1px solid #374151;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+a:hover{
+    background-color: #f59e0b;
+    color: black;
+}
+
+.icono-nav-bar{
+    display: flex;
+    height: 100%;
+}
+
+.superpuesto{
+    position: relative;
+    height: 100%;
+}
+
+.eslogan{
+    position: absolute;
+    width: 35%;
+    top: 60%;
+    left: 4%;
+    padding: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    background: rgba(17, 24, 39, 0.75);
+    border-left: 5px solid #f59e0b;
+}
+
+.cont-logo{
+    position: absolute;
+    width: 50px;
+    top: 1%;
+    left: 4%;
+}
+
+.logo{
+    width: 150px;
+    background-color: rgba(60, 63, 66, 0.8);
+    border-radius: 50px;
+}
