@@ -5,7 +5,7 @@ function Validar(){
         const cd = xmlDoc.getElementsByTagName("usuario")
         miFuncion(cd)
     }
-    xhttp.open("GET", "./../XML/Usuarios.xml")
+    xhttp.open("GET", "./XML/Usuarios.xml")
     xhttp.send()
 }
 
