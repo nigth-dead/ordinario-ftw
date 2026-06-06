@@ -1,4 +1,4 @@
-window.onload = function cargarImagenes(){
+window.onload = function cargarTabla (){
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function(){
         const xmlDoc = xhttp.responseXML
