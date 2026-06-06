@@ -16,7 +16,7 @@ function miFuncion(cd){
         if(cont == 0){
             table += "<tr>"
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src='../imgs/camion.png'></p>" +
+        table += "<td><p>" + "<img class='img-tarjeta' src=''></p>" +
         "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
         "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
         "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
@@ -33,6 +33,6 @@ function miFuncion(cd){
         }
     }
     table += "</tr>"
-    
     document.getElementById("tabla").innerHTML = table;
+    cargarImagenes("cargo truck");
 }
