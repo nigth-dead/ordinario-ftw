@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE motos SYSTEM "Motos.dtd">
+
+<motos>
+    <moto>
+        <marca>Yamaha</marca>
+        <modelo>YZF-R3</modelo>
+        <anio>2022</anio>
+        <color>Azul</color>
+        <precio>145000</precio>
+        <cilindrada>321cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Honda</marca>
+        <modelo>CBR500R</modelo>
+        <anio>2021</anio>
+        <color>Rojo</color>
+        <precio>165000</precio>
+        <cilindrada>471cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Kawasaki</marca>
+        <modelo>Ninja 400</modelo>
+        <anio>2023</anio>
+        <color>Verde</color>
+        <precio>160000</precio>
+        <cilindrada>399cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Suzuki</marca>
+        <modelo>GSX250R</modelo>
+        <anio>2020</anio>
+        <color>Negro</color>
+        <precio>120000</precio>
+        <cilindrada>248cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Italika</marca>
+        <modelo>FT150</modelo>
+        <anio>2022</anio>
+        <color>Negro</color>
+        <precio>27000</precio>
+        <cilindrada>150cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Vento</marca>
+        <modelo>Rocketman 250</modelo>
+        <anio>2021</anio>
+        <color>Gris</color>
+        <precio>48000</precio>
+        <cilindrada>250cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Bajaj</marca>
+        <modelo>Pulsar NS200</modelo>
+        <anio>2023</anio>
+        <color>Rojo</color>
+        <precio>62000</precio>
+        <cilindrada>200cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>KTM</marca>
+        <modelo>Duke 390</modelo>
+        <anio>2022</anio>
+        <color>Naranja</color>
+        <precio>135000</precio>
+        <cilindrada>373cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>BMW</marca>
+        <modelo>G 310 R</modelo>
+        <anio>2021</anio>
+        <color>Blanco</color>
+        <precio>150000</precio>
+        <cilindrada>313cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Harley-Davidson</marca>
+        <modelo>Iron 883</modelo>
+        <anio>2020</anio>
+        <color>Negro</color>
+        <precio>260000</precio>
+        <cilindrada>883cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Ducati</marca>
+        <modelo>Monster 821</modelo>
+        <anio>2021</anio>
+        <color>Rojo</color>
+        <precio>290000</precio>
+        <cilindrada>821cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Yamaha</marca>
+        <modelo>MT-03</modelo>
+        <anio>2023</anio>
+        <color>Gris</color>
+        <precio>142000</precio>
+        <cilindrada>321cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Honda</marca>
+        <modelo>XR150L</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>52000</precio>
+        <cilindrada>150cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Kawasaki</marca>
+        <modelo>Z650</modelo>
+        <anio>2021</anio>
+        <color>Verde</color>
+        <precio>190000</precio>
+        <cilindrada>649cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Suzuki</marca>
+        <modelo>V-Strom 650</modelo>
+        <anio>2023</anio>
+        <color>Amarillo</color>
+        <precio>220000</precio>
+        <cilindrada>645cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Italika</marca>
+        <modelo>DM200</modelo>
+        <anio>2022</anio>
+        <color>Rojo</color>
+        <precio>39000</precio>
+        <cilindrada>200cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Vento</marca>
+        <modelo>Thunderstar 250</modelo>
+        <anio>2020</anio>
+        <color>Azul</color>
+        <precio>45000</precio>
+        <cilindrada>250cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Bajaj</marca>
+        <modelo>Dominar 400</modelo>
+        <anio>2023</anio>
+        <color>Negro</color>
+        <precio>89000</precio>
+        <cilindrada>373cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>KTM</marca>
+        <modelo>RC 200</modelo>
+        <anio>2021</anio>
+        <color>Naranja</color>
+        <precio>98000</precio>
+        <cilindrada>199cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>BMW</marca>
+        <modelo>F 750 GS</modelo>
+        <anio>2022</anio>
+        <color>Gris</color>
+        <precio>280000</precio>
+        <cilindrada>853cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Harley-Davidson</marca>
+        <modelo>Street Bob</modelo>
+        <anio>2023</anio>
+        <color>Negro</color>
+        <precio>390000</precio>
+        <cilindrada>1868cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Ducati</marca>
+        <modelo>Panigale V2</modelo>
+        <anio>2022</anio>
+        <color>Rojo</color>
+        <precio>470000</precio>
+        <cilindrada>955cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Yamaha</marca>
+        <modelo>FZ-S FI</modelo>
+        <anio>2021</anio>
+        <color>Azul</color>
+        <precio>65000</precio>
+        <cilindrada>149cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Honda</marca>
+        <modelo>CB190R</modelo>
+        <anio>2023</anio>
+        <color>Negro</color>
+        <precio>76000</precio>
+        <cilindrada>184cc</cilindrada>
+    </moto>
+
+    <moto>
+        <marca>Kawasaki</marca>
+        <modelo>Versys 300</modelo>
+        <anio>2022</anio>
+        <color>Verde</color>
+        <precio>155000</precio>
+        <cilindrada>296cc</cilindrada>
+    </moto>
+</motos>
