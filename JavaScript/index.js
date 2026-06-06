@@ -5,7 +5,7 @@ function Validar(){
         const cd = xmlDoc.getElementsByTagName("usuario")
         miFuncion(cd)
     }
-    xhttp.open("GET", "../XML/Usuarios.xml")
+    xhttp.open("GET", "./../XML/Usuarios.xml")
     xhttp.send()
 }
 
@@ -25,7 +25,7 @@ function miFuncion(cd){
     }
 
     if(loginCorrecto){
-        window.location.href = "HTML/Inicio.html"
+        window.location.href = "./HTML/Inicio.html"
     } else {
         document.getElementById("error").innerText = "Usuario  o contraseña incorrecta"
     }
