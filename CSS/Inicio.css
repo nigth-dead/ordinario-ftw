@@ -15,9 +15,10 @@ body{
     font-weight: bold;
 }
 
-.cont-inferior{
+#img_inicio{
+    width: 100%;
     height: 100%;
-    overflow: auto;
+    object-fit: cover;
 }
 
 ul{
@@ -66,22 +67,33 @@ a:hover{
     height: 100%;
 }
 
-#tabla{
-    text-align: center;
-    border-spacing: 15px;
+.superpuesto{
+    position: relative;
+    height: 100%;
 }
 
-#tabla td {
-    width: 25%;
-    border: solid 1px rgb(40, 55, 70);
-    border-radius: 20px;
-    background-color: rgb(235, 240, 245);
-    padding: 10px;
-    box-shadow: 4px 4px 10px rgba(40, 55, 70, 0.35);
+.eslogan{
+    position: absolute;
+    width: 35%;
+    top: 60%;
+    left: 4%;
+    padding: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    background: rgba(17, 24, 39, 0.75);
+    border-left: 5px solid #f59e0b;
 }
 
-.coche{
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 10px;
+.cont-logo{
+    position: absolute;
+    width: 50px;
+    top: 1%;
+    left: 4%;
+}
+
+.logo{
+    width: 150px;
+    background-color: rgba(60, 63, 66, 0.8);
+    border-radius: 50px;
 }

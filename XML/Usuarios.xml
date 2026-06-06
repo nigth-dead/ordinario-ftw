@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE usuarios SYSTEM "Usuarios.dtd">
+<usuarios>
+    <usuario>
+        <nombre>Edgar</nombre>
+        <contrasena>Exp123++</contrasena>
+    </usuario>
+</usuarios>

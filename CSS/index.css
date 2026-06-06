@@ -14,86 +14,95 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
-
-#img_inicio{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-ul{
+.cont{
     display: flex;
-    text-align: center;
+    height: calc(100% - 45px);
     align-items: center;
-    margin: 0;
-    padding-left: 0;
-    height: 40px;
-    background-color: #1f2937;
+    justify-content: center;
+    background-color: none;
 }
 
-li{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+.imagen-fondo{
+    position: fixed;
+    z-index: -1;
 }
 
-.borde{
-    border-right: solid 1px #374151;
-}
-
-a{
-    text-decoration: none;
-    color: #f9fafb;
+.cont-login {
+    background-color: #334155;
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
-.seleccionado{
-    background-color: #374151;
-    color: black;
-}
-
-a:hover{
-    background-color: #f59e0b;
-    color: black;
-}
-
-.icono-nav-bar{
+.formulario-login{
     display: flex;
-    height: 100%;
-}
-
-.superpuesto{
-    position: relative;
-    height: 100%;
-}
-
-.eslogan{
-    position: absolute;
-    width: 35%;
-    top: 60%;
-    left: 4%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
     padding: 20px;
-    font-size: 34px;
+}
+
+.entrada{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #64748B;
+    background-color: #475569;
+    color: #F8FAFC;
+}
+
+input:focus{
+    outline: none;
+    border-color: #38BDF8;
+    box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.25);
+}
+
+label{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    color: #E2E8F0;
+    font-weight: 600;
+}
+
+.btn-login{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2563EB;
+    color: #FFFFFF;
     font-weight: bold;
-    color: white;
-    background: rgba(17, 24, 39, 0.75);
-    border-left: 5px solid #f59e0b;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
 
-.cont-logo{
-    position: absolute;
-    width: 50px;
-    top: 1%;
-    left: 4%;
+.btn-login:hover{
+    background-color: #1D4ED8;
 }
 
-.logo{
-    width: 150px;
-    background-color: rgba(60, 63, 66, 0.8);
-    border-radius: 50px;
+.icono-usuario{
+    height: 150px;
+    border: 3px solid #64748B;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    background-color: #475569;
+}
+
+#error{
+    color: red;
+    font-size: 20px;
 }
