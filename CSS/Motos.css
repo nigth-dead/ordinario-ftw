@@ -1,6 +1,7 @@
 body{
     margin: 0;
     height: 100vh;
+    overflow: hidden;
 }
 
 .encabezado {
@@ -12,6 +13,11 @@ body{
     height: 45px;
     font-size: 30px;
     font-weight: bold;
+}
+
+.cont-inferior{
+    height: calc(100% - 85px);
+    overflow: auto;
 }
 
 ul{
@@ -60,3 +66,22 @@ a:hover{
     height: 100%;
 }
 
+#tabla{
+    text-align: center;
+    border-spacing: 15px;
+}
+
+#tabla td {
+    width: 25%;
+    border: solid 1px rgb(153, 187, 221);
+    border-radius: 20px;
+    background-color: rgb(206, 220, 234);
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(57, 124, 224, 0.35);
+}
+
+.img-tarjeta{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
