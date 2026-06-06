@@ -1,0 +1,10 @@
+<!ELEMENT camiones (camion+)>
+<!ELEMENT camion (marca, modelo, anio, color, precio, tonelaje, noRuedas, contenedor)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT tonelaje (#PCDATA)>
+<!ELEMENT noRuedas (#PCDATA)>
+<!ELEMENT contenedor (#PCDATA)>

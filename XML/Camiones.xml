@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE camiones SYSTEM "Camiones.dtd">
+
+<camiones>
+    <camion>
+        <marca>Freightliner</marca>
+        <modelo>Cascadia</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>1850000</precio>
+        <tonelaje>25 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>International</marca>
+        <modelo>LT Series</modelo>
+        <anio>2021</anio>
+        <color>Rojo</color>
+        <precio>1750000</precio>
+        <tonelaje>22 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Refrigerado</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Kenworth</marca>
+        <modelo>T680</modelo>
+        <anio>2023</anio>
+        <color>Azul</color>
+        <precio>2100000</precio>
+        <tonelaje>30 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Volvo</marca>
+        <modelo>VNL</modelo>
+        <anio>2022</anio>
+        <color>Gris</color>
+        <precio>2000000</precio>
+        <tonelaje>28 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Plataforma</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Scania</marca>
+        <modelo>R450</modelo>
+        <anio>2021</anio>
+        <color>Negro</color>
+        <precio>1950000</precio>
+        <tonelaje>26 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Cisterna</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Mercedes-Benz</marca>
+        <modelo>Actros</modelo>
+        <anio>2023</anio>
+        <color>Blanco</color>
+        <precio>2200000</precio>
+        <tonelaje>32 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>MAN</marca>
+        <modelo>TGX</modelo>
+        <anio>2020</anio>
+        <color>Amarillo</color>
+        <precio>1650000</precio>
+        <tonelaje>24 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Plataforma</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Ford</marca>
+        <modelo>F-350</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>850000</precio>
+        <tonelaje>3.5 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja cerrada</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Chevrolet</marca>
+        <modelo>Silverado 3500</modelo>
+        <anio>2021</anio>
+        <color>Negro</color>
+        <precio>780000</precio>
+        <tonelaje>3 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Redilas</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Dodge</marca>
+        <modelo>Ram 4000</modelo>
+        <anio>2023</anio>
+        <color>Rojo</color>
+        <precio>820000</precio>
+        <tonelaje>3.5 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Isuzu</marca>
+        <modelo>ELF 600</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>900000</precio>
+        <tonelaje>5 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja refrigerada</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Hino</marca>
+        <modelo>Serie 500</modelo>
+        <anio>2021</anio>
+        <color>Azul</color>
+        <precio>950000</precio>
+        <tonelaje>6 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Foton</marca>
+        <modelo>Aumark</modelo>
+        <anio>2023</anio>
+        <color>Gris</color>
+        <precio>720000</precio>
+        <tonelaje>4 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Redilas</contenedor>
+    </camion>
+
+    <camion>
+        <marca>JAC</marca>
+        <modelo>Gallop</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>760000</precio>
+        <tonelaje>5 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja cerrada</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Mitsubishi</marca>
+        <modelo>Fuso Canter</modelo>
+        <anio>2020</anio>
+        <color>Verde</color>
+        <precio>690000</precio>
+        <tonelaje>4.5 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Nissan</marca>
+        <modelo>NP300 Chasis</modelo>
+        <anio>2021</anio>
+        <color>Blanco</color>
+        <precio>480000</precio>
+        <tonelaje>1.5 toneladas</tonelaje>
+        <noRuedas>4</noRuedas>
+        <contenedor>Redilas</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Volkswagen</marca>
+        <modelo>Delivery 9.170</modelo>
+        <anio>2023</anio>
+        <color>Blanco</color>
+        <precio>980000</precio>
+        <tonelaje>6 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja refrigerada</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Mercedes-Benz</marca>
+        <modelo>Atego</modelo>
+        <anio>2022</anio>
+        <color>Azul</color>
+        <precio>1150000</precio>
+        <tonelaje>8 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Kenworth</marca>
+        <modelo>T880</modelo>
+        <anio>2021</anio>
+        <color>Negro</color>
+        <precio>2300000</precio>
+        <tonelaje>35 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Volteo</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Freightliner</marca>
+        <modelo>M2 106</modelo>
+        <anio>2023</anio>
+        <color>Rojo</color>
+        <precio>1350000</precio>
+        <tonelaje>10 toneladas</tonelaje>
+        <noRuedas>10</noRuedas>
+        <contenedor>Caja seca</contenedor>
+    </camion>
+
+    <camion>
+        <marca>International</marca>
+        <modelo>MV Series</modelo>
+        <anio>2022</anio>
+        <color>Blanco</color>
+        <precio>1250000</precio>
+        <tonelaje>9 toneladas</tonelaje>
+        <noRuedas>10</noRuedas>
+        <contenedor>Refrigerado</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Volvo</marca>
+        <modelo>FH</modelo>
+        <anio>2023</anio>
+        <color>Gris</color>
+        <precio>2400000</precio>
+        <tonelaje>34 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Cisterna</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Scania</marca>
+        <modelo>G410</modelo>
+        <anio>2020</anio>
+        <color>Blanco</color>
+        <precio>1700000</precio>
+        <tonelaje>25 toneladas</tonelaje>
+        <noRuedas>18</noRuedas>
+        <contenedor>Plataforma</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Hino</marca>
+        <modelo>Serie 300</modelo>
+        <anio>2022</anio>
+        <color>Amarillo</color>
+        <precio>680000</precio>
+        <tonelaje>3 toneladas</tonelaje>
+        <noRuedas>6</noRuedas>
+        <contenedor>Caja cerrada</contenedor>
+    </camion>
+
+    <camion>
+        <marca>Isuzu</marca>
+        <modelo>Forward 1100</modelo>
+        <anio>2023</anio>
+        <color>Azul</color>
+        <precio>1180000</precio>
+        <tonelaje>8 toneladas</tonelaje>
+        <noRuedas>10</noRuedas>
+        <contenedor>Volteo</contenedor>
+    </camion>
+</camiones>
