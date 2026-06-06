@@ -23,7 +23,8 @@ function miFuncion(cd) {
         "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
         "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
         "Color: " + cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Precio: " + cd[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p>" +
+        "Precio: " + cd[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p><p>" +
+        "Numero de puertas: " + cd[i].getElementsByTagName("noPuertas")[0].childNodes[0].nodeValue + "</p>" +
         "</td>";
         cont ++;
         if (cont >= 4){

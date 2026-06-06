@@ -1,704 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE autos SYSTEM "Autos.dtd">
+
 <autos>
     <auto>
         <marca>Toyota</marca>
         <modelo>Corolla</modelo>
-        <anio>2020</anio>
+        <anio>2022</anio>
         <color>Blanco</color>
         <precio>320000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
         <marca>Honda</marca>
         <modelo>Civic</modelo>
         <anio>2021</anio>
         <color>Negro</color>
-        <precio>380000</precio>
+        <precio>350000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
         <marca>Nissan</marca>
         <modelo>Sentra</modelo>
-        <anio>2019</anio>
-        <color>Rojo</color>
-        <precio>290000</precio>
+        <anio>2023</anio>
+        <color>Gris</color>
+        <precio>380000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Chevrolet</marca>
-        <modelo>Onix</modelo>
-        <anio>2022</anio>
-        <color>Azul</color>
-        <precio>340000</precio>
-    </auto>
+
     <auto>
         <marca>Volkswagen</marca>
         <modelo>Jetta</modelo>
-        <anio>2023</anio>
-        <color>Gris</color>
-        <precio>450000</precio>
+        <anio>2020</anio>
+        <color>Rojo</color>
+        <precio>290000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Ford</marca>
-        <modelo>Focus</modelo>
-        <anio>2018</anio>
-        <color>Plateado</color>
-        <precio>270000</precio>
+        <marca>Chevrolet</marca>
+        <modelo>Aveo</modelo>
+        <anio>2022</anio>
+        <color>Azul</color>
+        <precio>250000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
         <marca>Kia</marca>
         <modelo>Rio</modelo>
         <anio>2021</anio>
-        <color>Blanco</color>
-        <precio>310000</precio>
+        <color>Plata</color>
+        <precio>270000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
         <marca>Hyundai</marca>
         <modelo>Elantra</modelo>
-        <anio>2022</anio>
-        <color>Negro</color>
-        <precio>360000</precio>
-    </auto>
-    <auto>
-        <marca>Mazda</marca>
-        <modelo>Mazda3</modelo>
         <anio>2023</anio>
-        <color>Rojo</color>
-        <precio>470000</precio>
-    </auto>
-    <auto>
-        <marca>Renault</marca>
-        <modelo>Logan</modelo>
-        <anio>2020</anio>
-        <color>Azul</color>
-        <precio>250000</precio>
-    </auto>
-    <auto>
-        <marca>Toyota</marca>
-        <modelo>Yaris</modelo>
-        <anio>2021</anio>
-        <color>Gris</color>
-        <precio>330000</precio>
-    </auto>
-    <auto>
-        <marca>Honda</marca>
-        <modelo>Accord</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>520000</precio>
-    </auto>
-    <auto>
-        <marca>Nissan</marca>
-        <modelo>Versa</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>310000</precio>
-    </auto>
-    <auto>
-        <marca>Chevrolet</marca>
-        <modelo>Malibu</modelo>
-        <anio>2021</anio>
-        <color>Rojo</color>
-        <precio>480000</precio>
-    </auto>
-    <auto>
-        <marca>Volkswagen</marca>
-        <modelo>Polo</modelo>
-        <anio>2020</anio>
-        <color>Azul</color>
-        <precio>280000</precio>
-    </auto>
-    <auto>
-        <marca>Ford</marca>
-        <modelo>Fiesta</modelo>
-        <anio>2019</anio>
-        <color>Gris</color>
-        <precio>240000</precio>
-    </auto>
-    <auto>
-        <marca>Kia</marca>
-        <modelo>Forte</modelo>
-        <anio>2022</anio>
         <color>Blanco</color>
         <precio>390000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Hyundai</marca>
-        <modelo>Accent</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>350000</precio>
-    </auto>
+
     <auto>
         <marca>Mazda</marca>
-        <modelo>CX-5</modelo>
+        <modelo>Mazda 3</modelo>
         <anio>2022</anio>
         <color>Rojo</color>
-        <precio>650000</precio>
-    </auto>
-    <auto>
-        <marca>Renault</marca>
-        <modelo>Duster</modelo>
-        <anio>2021</anio>
-        <color>Azul</color>
         <precio>420000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Toyota</marca>
-        <modelo>Camry</modelo>
-        <anio>2023</anio>
-        <color>Plateado</color>
-        <precio>620000</precio>
-    </auto>
-    <auto>
-        <marca>Honda</marca>
-        <modelo>Fit</modelo>
-        <anio>2020</anio>
-        <color>Blanco</color>
-        <precio>280000</precio>
-    </auto>
-    <auto>
-        <marca>Nissan</marca>
-        <modelo>Altima</modelo>
-        <anio>2021</anio>
-        <color>Negro</color>
-        <precio>510000</precio>
-    </auto>
-    <auto>
-        <marca>Chevrolet</marca>
-        <modelo>Spark</modelo>
-        <anio>2019</anio>
-        <color>Rojo</color>
-        <precio>210000</precio>
-    </auto>
-    <auto>
-        <marca>Volkswagen</marca>
-        <modelo>Golf</modelo>
-        <anio>2022</anio>
-        <color>Azul</color>
-        <precio>430000</precio>
-    </auto>
+
     <auto>
         <marca>Ford</marca>
         <modelo>Mustang</modelo>
-        <anio>2023</anio>
+        <anio>2020</anio>
         <color>Amarillo</color>
-        <precio>980000</precio>
+        <precio>780000</precio>
+        <noPuertas>2</noPuertas>
     </auto>
+
     <auto>
-        <marca>Kia</marca>
-        <modelo>Sportage</modelo>
-        <anio>2022</anio>
-        <color>Gris</color>
-        <precio>580000</precio>
-    </auto>
-    <auto>
-        <marca>Hyundai</marca>
-        <modelo>Tucson</modelo>
-        <anio>2023</anio>
-        <color>Blanco</color>
-        <precio>610000</precio>
-    </auto>
-    <auto>
-        <marca>Mazda</marca>
-        <modelo>CX-30</modelo>
+        <marca>Chevrolet</marca>
+        <modelo>Camaro</modelo>
         <anio>2021</anio>
         <color>Negro</color>
-        <precio>520000</precio>
+        <precio>850000</precio>
+        <noPuertas>2</noPuertas>
     </auto>
+
+    <auto>
+        <marca>BMW</marca>
+        <modelo>Serie 3</modelo>
+        <anio>2022</anio>
+        <color>Azul</color>
+        <precio>950000</precio>
+        <noPuertas>4</noPuertas>
+    </auto>
+
+    <auto>
+        <marca>Mercedes-Benz</marca>
+        <modelo>Clase C</modelo>
+        <anio>2023</anio>
+        <color>Gris</color>
+        <precio>1100000</precio>
+        <noPuertas>4</noPuertas>
+    </auto>
+
+    <auto>
+        <marca>Audi</marca>
+        <modelo>A4</modelo>
+        <anio>2021</anio>
+        <color>Blanco</color>
+        <precio>880000</precio>
+        <noPuertas>4</noPuertas>
+    </auto>
+
+    <auto>
+        <marca>Tesla</marca>
+        <modelo>Model 3</modelo>
+        <anio>2023</anio>
+        <color>Negro</color>
+        <precio>920000</precio>
+        <noPuertas>4</noPuertas>
+    </auto>
+
     <auto>
         <marca>Renault</marca>
         <modelo>Kwid</modelo>
-        <anio>2023</anio>
-        <color>Naranja</color>
-        <precio>260000</precio>
-    </auto>
-    <auto>
-        <marca>Toyota</marca>
-        <modelo>RAV4</modelo>
-        <anio>2022</anio>
-        <color>Verde</color>
-        <precio>720000</precio>
-    </auto>
-    <auto>
-        <marca>Honda</marca>
-        <modelo>CR-V</modelo>
-        <anio>2023</anio>
-        <color>Azul</color>
-        <precio>760000</precio>
-    </auto>
-    <auto>
-        <marca>Nissan</marca>
-        <modelo>Kicks</modelo>
-        <anio>2021</anio>
-        <color>Rojo</color>
-        <precio>450000</precio>
-    </auto>
-    <auto>
-        <marca>Chevrolet</marca>
-        <modelo>Tracker</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>500000</precio>
-    </auto>
-    <auto>
-        <marca>Volkswagen</marca>
-        <modelo>Tiguan</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>780000</precio>
-    </auto>
-    <auto>
-        <marca>Ford</marca>
-        <modelo>Escape</modelo>
-        <anio>2022</anio>
-        <color>Gris</color>
-        <precio>690000</precio>
-    </auto>
-    <auto>
-        <marca>Kia</marca>
-        <modelo>Seltos</modelo>
-        <anio>2021</anio>
-        <color>Azul</color>
-        <precio>470000</precio>
-    </auto>
-    <auto>
-        <marca>Hyundai</marca>
-        <modelo>Creta</modelo>
-        <anio>2023</anio>
-        <color>Rojo</color>
-        <precio>490000</precio>
-    </auto>
-    <auto>
-        <marca>Mazda</marca>
-        <modelo>MX-5</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>800000</precio>
-    </auto>
-    <auto>
-        <marca>Renault</marca>
-        <modelo>Captur</modelo>
-        <anio>2021</anio>
-        <color>Negro</color>
-        <precio>460000</precio>
-    </auto>
-    <auto>
-        <marca>Toyota</marca>
-        <modelo>Hilux</modelo>
-        <anio>2023</anio>
-        <color>Gris</color>
-        <precio>850000</precio>
-    </auto>
-    <auto>
-        <marca>Honda</marca>
-        <modelo>Pilot</modelo>
-        <anio>2022</anio>
-        <color>Azul</color>
-        <precio>920000</precio>
-    </auto>
-    <auto>
-        <marca>Nissan</marca>
-        <modelo>Frontier</modelo>
-        <anio>2021</anio>
-        <color>Rojo</color>
-        <precio>810000</precio>
-    </auto>
-    <auto>
-        <marca>Chevrolet</marca>
-        <modelo>Colorado</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>890000</precio>
-    </auto>
-    <auto>
-        <marca>Volkswagen</marca>
-        <modelo>Taos</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>560000</precio>
-    </auto>
-    <auto>
-        <marca>Ford</marca>
-        <modelo>Ranger</modelo>
-        <anio>2022</anio>
-        <color>Gris</color>
-        <precio>840000</precio>
-    </auto>
-    <auto>
-        <marca>Kia</marca>
-        <modelo>Sorento</modelo>
-        <anio>2023</anio>
-        <color>Azul</color>
-        <precio>790000</precio>
-    </auto>
-    <auto>
-        <marca>Hyundai</marca>
-        <modelo>Santa Fe</modelo>
-        <anio>2022</anio>
-        <color>Rojo</color>
-        <precio>830000</precio>
-    </auto>
-    <auto>
-        <marca>Mazda</marca>
-        <modelo>CX-9</modelo>
-        <anio>2021</anio>
-        <color>Blanco</color>
-        <precio>910000</precio>
-    </auto>
-    <auto>
-        <marca>Renault</marca>
-        <modelo>Oroch</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>610000</precio>
-    </auto>
-    <auto>
-        <marca>Subaru</marca>
-        <modelo>Impreza</modelo>
-        <anio>2021</anio>
-        <color>Azul</color>
-        <precio>480000</precio>
-    </auto>
-    <auto>
-        <marca>Subaru</marca>
-        <modelo>Forester</modelo>
-        <anio>2022</anio>
-        <color>Verde</color>
-        <precio>690000</precio>
-    </auto>
-    <auto>
-        <marca>Subaru</marca>
-        <modelo>Outback</modelo>
-        <anio>2023</anio>
-        <color>Gris</color>
-        <precio>820000</precio>
-    </auto>
-    <auto>
-        <marca>Mitsubishi</marca>
-        <modelo>Lancer</modelo>
-        <anio>2020</anio>
-        <color>Rojo</color>
-        <precio>350000</precio>
-    </auto>
-    <auto>
-        <marca>Mitsubishi</marca>
-        <modelo>ASX</modelo>
-        <anio>2021</anio>
-        <color>Blanco</color>
-        <precio>520000</precio>
-    </auto>
-    <auto>
-        <marca>Mitsubishi</marca>
-        <modelo>Montero Sport</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>890000</precio>
-    </auto>
-    <auto>
-        <marca>Suzuki</marca>
-        <modelo>Swift</modelo>
-        <anio>2022</anio>
-        <color>Amarillo</color>
-        <precio>310000</precio>
-    </auto>
-    <auto>
-        <marca>Suzuki</marca>
-        <modelo>Vitara</modelo>
-        <anio>2023</anio>
-        <color>Azul</color>
-        <precio>540000</precio>
-    </auto>
-    <auto>
-        <marca>Suzuki</marca>
-        <modelo>S-Cross</modelo>
-        <anio>2021</anio>
-        <color>Gris</color>
-        <precio>490000</precio>
-    </auto>
-    <auto>
-        <marca>Peugeot</marca>
-        <modelo>208</modelo>
         <anio>2022</anio>
         <color>Naranja</color>
-        <precio>380000</precio>
+        <precio>230000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Peugeot</marca>
-        <modelo>3008</modelo>
-        <anio>2023</anio>
-        <color>Blanco</color>
-        <precio>730000</precio>
-    </auto>
-    <auto>
-        <marca>Peugeot</marca>
-        <modelo>5008</modelo>
-        <anio>2022</anio>
-        <color>Negro</color>
-        <precio>810000</precio>
-    </auto>
+
     <auto>
         <marca>Seat</marca>
         <modelo>Ibiza</modelo>
         <anio>2021</anio>
         <color>Rojo</color>
-        <precio>340000</precio>
+        <precio>310000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Seat</marca>
-        <modelo>León</modelo>
+        <marca>Suzuki</marca>
+        <modelo>Swift</modelo>
         <anio>2023</anio>
         <color>Azul</color>
-        <precio>510000</precio>
+        <precio>330000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Seat</marca>
-        <modelo>Ateca</modelo>
+        <marca>Peugeot</marca>
+        <modelo>208</modelo>
         <anio>2022</anio>
         <color>Gris</color>
-        <precio>680000</precio>
+        <precio>360000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Fiat</marca>
-        <modelo>Mobi</modelo>
-        <anio>2021</anio>
-        <color>Blanco</color>
-        <precio>250000</precio>
-    </auto>
+
     <auto>
         <marca>Fiat</marca>
         <modelo>Argo</modelo>
-        <anio>2022</anio>
-        <color>Rojo</color>
-        <precio>330000</precio>
+        <anio>2020</anio>
+        <color>Blanco</color>
+        <precio>260000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Fiat</marca>
-        <modelo>Pulse</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>490000</precio>
+        <marca>Mitsubishi</marca>
+        <modelo>Mirage</modelo>
+        <anio>2021</anio>
+        <color>Plata</color>
+        <precio>240000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
-    <auto>
-        <marca>Jeep</marca>
-        <modelo>Renegade</modelo>
-        <anio>2022</anio>
-        <color>Verde</color>
-        <precio>620000</precio>
-    </auto>
-    <auto>
-        <marca>Jeep</marca>
-        <modelo>Compass</modelo>
-        <anio>2023</anio>
-        <color>Gris</color>
-        <precio>790000</precio>
-    </auto>
+
     <auto>
         <marca>Jeep</marca>
         <modelo>Wrangler</modelo>
         <anio>2022</anio>
-        <color>Amarillo</color>
-        <precio>1200000</precio>
-    </auto>
-    <auto>
-        <marca>Dodge</marca>
-        <modelo>Attitude</modelo>
-        <anio>2021</anio>
-        <color>Blanco</color>
-        <precio>280000</precio>
-    </auto>
-    <auto>
-        <marca>Dodge</marca>
-        <modelo>Charger</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>980000</precio>
-    </auto>
-    <auto>
-        <marca>Dodge</marca>
-        <modelo>Durango</modelo>
-        <anio>2022</anio>
-        <color>Azul</color>
-        <precio>1150000</precio>
-    </auto>
-    <auto>
-        <marca>Chrysler</marca>
-        <modelo>300</modelo>
-        <anio>2021</anio>
-        <color>Plateado</color>
-        <precio>850000</precio>
-    </auto>
-    <auto>
-        <marca>Ram</marca>
-        <modelo>700</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>410000</precio>
-    </auto>
-    <auto>
-        <marca>Ram</marca>
-        <modelo>1500</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>1350000</precio>
-    </auto>
-    <auto>
-        <marca>GMC</marca>
-        <modelo>Terrain</modelo>
-        <anio>2022</anio>
-        <color>Rojo</color>
-        <precio>760000</precio>
-    </auto>
-    <auto>
-        <marca>GMC</marca>
-        <modelo>Acadia</modelo>
-        <anio>2023</anio>
-        <color>Blanco</color>
-        <precio>980000</precio>
-    </auto>
-    <auto>
-        <marca>Cadillac</marca>
-        <modelo>XT4</modelo>
-        <anio>2022</anio>
-        <color>Negro</color>
-        <precio>1050000</precio>
-    </auto>
-    <auto>
-        <marca>Cadillac</marca>
-        <modelo>Escalade</modelo>
-        <anio>2023</anio>
-        <color>Plateado</color>
-        <precio>2400000</precio>
-    </auto>
-    <auto>
-        <marca>BMW</marca>
-        <modelo>Serie 1</modelo>
-        <anio>2021</anio>
-        <color>Azul</color>
-        <precio>780000</precio>
-    </auto>
-    <auto>
-        <marca>BMW</marca>
-        <modelo>Serie 3</modelo>
-        <anio>2023</anio>
-        <color>Negro</color>
-        <precio>1150000</precio>
-    </auto>
-    <auto>
-        <marca>BMW</marca>
-        <modelo>X3</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>1320000</precio>
-    </auto>
-    <auto>
-        <marca>Audi</marca>
-        <modelo>A3</modelo>
-        <anio>2021</anio>
-        <color>Rojo</color>
-        <precio>790000</precio>
-    </auto>
-    <auto>
-        <marca>Audi</marca>
-        <modelo>A4</modelo>
-        <anio>2023</anio>
-        <color>Gris</color>
-        <precio>1180000</precio>
-    </auto>
-    <auto>
-        <marca>Audi</marca>
-        <modelo>Q5</modelo>
-        <anio>2022</anio>
-        <color>Negro</color>
-        <precio>1390000</precio>
-    </auto>
-    <auto>
-        <marca>Mercedes-Benz</marca>
-        <modelo>Clase A</modelo>
-        <anio>2022</anio>
-        <color>Blanco</color>
-        <precio>950000</precio>
-    </auto>
-    <auto>
-        <marca>Mercedes-Benz</marca>
-        <modelo>Clase C</modelo>
-        <anio>2023</anio>
-        <color>Azul</color>
-        <precio>1450000</precio>
-    </auto>
-    <auto>
-        <marca>Mercedes-Benz</marca>
-        <modelo>GLC</modelo>
-        <anio>2022</anio>
-        <color>Plateado</color>
-        <precio>1680000</precio>
-    </auto>
-    <auto>
-        <marca>Volvo</marca>
-        <modelo>S60</modelo>
-        <anio>2021</anio>
-        <color>Negro</color>
-        <precio>990000</precio>
-    </auto>
-    <auto>
-        <marca>Volvo</marca>
-        <modelo>XC40</modelo>
-        <anio>2023</anio>
-        <color>Blanco</color>
-        <precio>1200000</precio>
-    </auto>
-    <auto>
-        <marca>Volvo</marca>
-        <modelo>XC90</modelo>
-        <anio>2022</anio>
-        <color>Gris</color>
-        <precio>1890000</precio>
-    </auto>
-    <auto>
-        <marca>Land Rover</marca>
-        <modelo>Discovery Sport</modelo>
-        <anio>2022</anio>
         <color>Verde</color>
-        <precio>1540000</precio>
+        <precio>1150000</precio>
+        <noPuertas>2</noPuertas>
     </auto>
+
     <auto>
-        <marca>Land Rover</marca>
-        <modelo>Range Rover Evoque</modelo>
+        <marca>Honda</marca>
+        <modelo>CR-V</modelo>
         <anio>2023</anio>
         <color>Negro</color>
-        <precio>1760000</precio>
+        <precio>720000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Jaguar</marca>
-        <modelo>XE</modelo>
-        <anio>2021</anio>
-        <color>Azul</color>
-        <precio>1250000</precio>
-    </auto>
-    <auto>
-        <marca>Jaguar</marca>
-        <modelo>F-Pace</modelo>
-        <anio>2023</anio>
-        <color>Rojo</color>
-        <precio>1850000</precio>
-    </auto>
-    <auto>
-        <marca>Porsche</marca>
-        <modelo>Macan</modelo>
+        <marca>Toyota</marca>
+        <modelo>RAV4</modelo>
         <anio>2022</anio>
         <color>Gris</color>
-        <precio>1950000</precio>
+        <precio>690000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
+
     <auto>
-        <marca>Porsche</marca>
-        <modelo>Cayenne</modelo>
+        <marca>Nissan</marca>
+        <modelo>Kicks</modelo>
+        <anio>2021</anio>
+        <color>Rojo</color>
+        <precio>410000</precio>
+        <noPuertas>4</noPuertas>
+    </auto>
+
+    <auto>
+        <marca>Ford</marca>
+        <modelo>Explorer</modelo>
         <anio>2023</anio>
-        <color>Blanco</color>
-        <precio>2450000</precio>
-    </auto>
-    <auto>
-        <marca>Lexus</marca>
-        <modelo>IS 300</modelo>
-        <anio>2022</anio>
-        <color>Negro</color>
+        <color>Azul</color>
         <precio>980000</precio>
+        <noPuertas>4</noPuertas>
     </auto>
 </autos>

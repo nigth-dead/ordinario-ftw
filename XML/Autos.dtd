@@ -1,7 +1,8 @@
 <!ELEMENT autos (auto+)>
-<!ELEMENT auto (marca, modelo, anio, color, precio)>
+<!ELEMENT auto (marca, modelo, anio, color, precio, noPuertas)>
 <!ELEMENT marca (#PCDATA)>
 <!ELEMENT modelo (#PCDATA)>
 <!ELEMENT anio (#PCDATA)>
 <!ELEMENT color (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
+<!ELEMENT noPuertas (#PCDATA)>

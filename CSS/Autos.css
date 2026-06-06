@@ -16,7 +16,7 @@ body{
 }
 
 .cont-inferior{
-    height: 100%;
+    height: calc(100% - 85px);
     overflow: auto;
 }
 
