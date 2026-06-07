@@ -28,7 +28,7 @@ function miFuncion(cd, origen) {
         if(origen == "inicio"){
             ciudades.add(cd[i].getElementsByTagName("ciudad")[0].childNodes[0].nodeValue)
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src=''></p>" +
+        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de sucursal'></p>" +
         "<p>Nombre: " + cd[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "</p><p>" +
         "Direccion: " + cd[i].getElementsByTagName("direccion")[0].childNodes[0].nodeValue + "</p><p>" +
         "Ciudad: " + cd[i].getElementsByTagName("ciudad")[0].childNodes[0].nodeValue + "</p><p>" +

@@ -35,7 +35,7 @@ function miFuncion(cd, origen) {
         }
         
         /*cargarFiltros(cd[i])*/
-        table += "<td><p>" + "<img class='img-tarjeta' src=''></p>" +
+        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de auto'></p>" +
         "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
         "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
         "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +

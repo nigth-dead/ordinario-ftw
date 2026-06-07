@@ -39,7 +39,7 @@ function miFuncion(cd, origen){
             ruedas.add(cd[i].getElementsByTagName("noRuedas")[0].childNodes[0].nodeValue)
             contenedores.add(cd[i].getElementsByTagName("contenedor")[0].childNodes[0].nodeValue)
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src=''></p>" +
+        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de camión'></p>" +
         "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
         "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
         "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
