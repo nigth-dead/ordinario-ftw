@@ -19,7 +19,7 @@ body{
     height: calc(100% - 45px);
     align-items: center;
     justify-content: center;
-    background-color: none;
+    background-color: transparent;
 }
 
 .imagen-fondo{

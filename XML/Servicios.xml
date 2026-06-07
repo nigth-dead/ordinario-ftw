@@ -4,9 +4,10 @@
 <servicios>
     <servicio>
         <nombre>Cambio de aceite</nombre>
-        <descripcion>Reemplazo de aceite de motor y revisión de niveles básicos del vehículo.</descripcion>
+        <descripcion>Reemplazo de aceite de motor y revisión de niveles básicos.</descripcion>
         <costo>$850</costo>
         <duracion>45 minutos</duracion>
+        <vehiculo>Auto</vehiculo>
     </servicio>
 
     <servicio>
@@ -14,6 +15,7 @@
         <descripcion>Inspección de balatas, discos, líquido de frenos y funcionamiento general.</descripcion>
         <costo>$600</costo>
         <duracion>40 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 
     <servicio>
@@ -21,13 +23,15 @@
         <descripcion>Ajuste de dirección y balanceo de llantas para mejorar estabilidad y manejo.</descripcion>
         <costo>$750</costo>
         <duracion>1 hora</duracion>
+        <vehiculo>Auto</vehiculo>
     </servicio>
 
     <servicio>
         <nombre>Diagnóstico con escáner</nombre>
-        <descripcion>Revisión electrónica del vehículo para detectar fallas en sensores o sistema del motor.</descripcion>
+        <descripcion>Revisión electrónica para detectar fallas en sensores o sistema del motor.</descripcion>
         <costo>$500</costo>
         <duracion>30 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 
     <servicio>
@@ -35,13 +39,15 @@
         <descripcion>Limpieza exterior del vehículo, incluyendo carrocería, vidrios y rines.</descripcion>
         <costo>$180</costo>
         <duracion>25 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 
     <servicio>
         <nombre>Lavado completo</nombre>
-        <descripcion>Limpieza interior y exterior del vehículo con aspirado y detallado básico.</descripcion>
+        <descripcion>Limpieza interior y exterior con aspirado y detallado básico.</descripcion>
         <costo>$350</costo>
         <duracion>1 hora</duracion>
+        <vehiculo>Auto</vehiculo>
     </servicio>
 
     <servicio>
@@ -49,6 +55,7 @@
         <descripcion>Limpieza profunda de interiores, pulido exterior y protección de pintura.</descripcion>
         <costo>$1500</costo>
         <duracion>4 horas</duracion>
+        <vehiculo>Auto</vehiculo>
     </servicio>
 
     <servicio>
@@ -56,6 +63,7 @@
         <descripcion>Revisión del sistema eléctrico e instalación de batería nueva.</descripcion>
         <costo>$2200</costo>
         <duracion>30 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 
     <servicio>
@@ -63,6 +71,7 @@
         <descripcion>Cambio de posición de las llantas para mejorar su desgaste y duración.</descripcion>
         <costo>$300</costo>
         <duracion>25 minutos</duracion>
+        <vehiculo>Auto</vehiculo>
     </servicio>
 
     <servicio>
@@ -70,27 +79,39 @@
         <descripcion>Inspección de amortiguadores, resortes, bujes y componentes de suspensión.</descripcion>
         <costo>$650</costo>
         <duracion>50 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 
     <servicio>
-        <nombre>Cambio de filtros</nombre>
-        <descripcion>Reemplazo de filtro de aire, filtro de aceite y filtro de cabina.</descripcion>
-        <costo>$700</costo>
-        <duracion>35 minutos</duracion>
+        <nombre>Ajuste de cadena</nombre>
+        <descripcion>Ajuste, limpieza y lubricación de cadena para motocicleta.</descripcion>
+        <costo>$300</costo>
+        <duracion>25 minutos</duracion>
+        <vehiculo>Moto</vehiculo>
     </servicio>
 
     <servicio>
-        <nombre>Revisión de luces</nombre>
-        <descripcion>Verificación de faros, direccionales, luces traseras y luces interiores.</descripcion>
+        <nombre>Cambio de bujía</nombre>
+        <descripcion>Reemplazo de bujía y revisión básica del encendido.</descripcion>
         <costo>$250</costo>
         <duracion>20 minutos</duracion>
+        <vehiculo>Moto</vehiculo>
     </servicio>
 
     <servicio>
-        <nombre>Instalación de accesorios</nombre>
-        <descripcion>Colocación de accesorios como tapetes, cámaras, sensores o soportes.</descripcion>
-        <costo>$900</costo>
+        <nombre>Revisión de sistema de carga</nombre>
+        <descripcion>Inspección de alternador, batería, cableado y sistema eléctrico.</descripcion>
+        <costo>$1200</costo>
         <duracion>1 hora</duracion>
+        <vehiculo>Camión</vehiculo>
+    </servicio>
+
+    <servicio>
+        <nombre>Revisión de neumáticos</nombre>
+        <descripcion>Inspección de presión, desgaste, alineación visual y estado general de neumáticos.</descripcion>
+        <costo>$400</costo>
+        <duracion>30 minutos</duracion>
+        <vehiculo>Camión</vehiculo>
     </servicio>
 
     <servicio>
@@ -98,12 +119,6 @@
         <descripcion>Servicio para probar un vehículo antes de realizar una compra.</descripcion>
         <costo>Gratis</costo>
         <duracion>20 minutos</duracion>
-    </servicio>
-
-    <servicio>
-        <nombre>Cotización de seguro</nombre>
-        <descripcion>Asesoría para calcular opciones de seguro vehicular según el modelo elegido.</descripcion>
-        <costo>Gratis</costo>
-        <duracion>30 minutos</duracion>
+        <vehiculo>Todos</vehiculo>
     </servicio>
 </servicios>

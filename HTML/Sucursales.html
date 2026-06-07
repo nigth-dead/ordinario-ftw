@@ -22,9 +22,24 @@
             </ul>
         </nav>
     </header>
-    <main  class="cont-inferior">
-        <section class="seccion-sucursales">
+    <main class="cont-inferior">
+        <section id="seccion-filtrado" class="seccion-sucursales">
             <h1>Sucursales</h1>
+            <img class="btn-filtrado" src="../imgs/filter.png" alt="" onclick="abrirMenuFiltro()">
+            <div id="menu-filtrado" class="menu-oculto">
+                <p>Ciudad</p>
+                <div class="select-filtro">
+                    <select id="ciudad">
+                        <option value="">Seleccione una ciudad</option>
+                    </select>
+                </div>
+                <div class="btns-filtro">
+                    <button class="btn-aplicar-filtro" onclick="cargarTablaFiltrada()">Aplicar filtros</button>
+                    <button class="btn-limpiar-filtro" onclick="limpiarFiltros()">Limpiar filtros</button>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-sucursales">
             <table id="tabla"></table>
         </section>
     </main>

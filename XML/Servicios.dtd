@@ -1,6 +1,7 @@
 <!ELEMENT servicios (servicio+)>
-<!ELEMENT servicio (nombre, descripcion, costo, duracion)>
+<!ELEMENT servicio (nombre, descripcion, costo, duracion, vehiculo)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT costo (#PCDATA)>
 <!ELEMENT duracion (#PCDATA)>
+<!ELEMENT vehiculo (#PCDATA)>

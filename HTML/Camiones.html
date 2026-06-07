@@ -23,8 +23,59 @@
         </nav>
     </header>
     <main class="cont-inferior">
-        <section class="seccion-camiones">
+        <section id="seccion-filtrado">
             <h1>Camiones disponibles</h1>
+            <img class="btn-filtrado" src="../imgs/filter.png" alt="" onclick="abrirMenuFiltro()">
+            <div id="menu-filtrado" class="menu-oculto">
+                <p>Marca</p>
+                <div class="select-filtro">
+                    <select id="marca">
+                        <option value="">Seleccione una marca</option>
+                    </select>
+                </div>
+                <p>Año</p>
+                <div class="select-filtro">
+                    <select id="anio">
+                        <option value="">Seleccione un año</option>
+                    </select>
+                </div>
+                <p>Color</p>
+                <div class="select-filtro">
+                    <select id="color">
+                        <option value="">Seleccione un color</option>
+                    </select>
+                </div>
+                <p>Rango de precios</p>
+                <div class="rango-precios">
+                    <input type="number" id="precio-minimo" placeholder="Minimo" min="0">
+                    -
+                    <input type="number" id="precio-maximo" placeholder="Maximo">
+                </div>
+                <p>Tonelaje</p>
+                <div class="select-filtro">
+                    <select id="tonelaje">
+                        <option value="">Seleccione un tonelaje</option>
+                    </select>
+                </div>
+                <p>No. ruedas</p>
+                <div class="select-filtro">
+                    <select id="ruedas">
+                        <option value="">Seleccione un No. de ruedas</option>
+                    </select>
+                </div>
+                <p>Contenedor</p>
+                <div class="select-filtro">
+                    <select id="contenedor">
+                        <option value="">Seleccione un contenedor</option>
+                    </select>
+                </div>
+                <div class="btns-filtro">
+                    <button class="btn-aplicar-filtro" onclick="cargarTablaFiltrada()">Aplicar filtros</button>
+                    <button class="btn-limpiar-filtro" onclick="limpiarFiltros()">Limpiar filtros</button>
+                </div>
+            </div>
+        </section>
+        <section class="seccion-camiones">
             <table id="tabla"></table>
         </section>
     </main>
