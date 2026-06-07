@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sucursales SYSTEM "Sucursales.dtd">
+
+<sucursales>
+    <sucursal>
+        <nombre>Sucursal Centro</nombre>
+        <direccion>Av. Principal #120</direccion>
+        <ciudad>Xalapa</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a sábado de 9:00 a 18:00</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Norte</nombre>
+        <direccion>Blvd. Norte #455</direccion>
+        <ciudad>Veracruz</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a viernes de 8:30 a 17:30</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Las Américas</nombre>
+        <direccion>Av. Las Américas #300</direccion>
+        <ciudad>Boca del Río</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a domingo de 10:00 a 20:00</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Córdoba</nombre>
+        <direccion>Calle 10 #215</direccion>
+        <ciudad>Córdoba</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a sábado de 9:00 a 18:30</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Orizaba</nombre>
+        <direccion>Av. Oriente 6 #890</direccion>
+        <ciudad>Orizaba</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a viernes de 9:00 a 18:00</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Coatzacoalcos</nombre>
+        <direccion>Av. Universidad #750</direccion>
+        <ciudad>Coatzacoalcos</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a sábado de 8:00 a 17:00</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Poza Rica</nombre>
+        <direccion>Blvd. Adolfo Ruiz Cortines #640</direccion>
+        <ciudad>Poza Rica</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a sábado de 9:30 a 18:30</horario>
+    </sucursal>
+
+    <sucursal>
+        <nombre>Sucursal Minatitlán</nombre>
+        <direccion>Av. Justo Sierra #410</direccion>
+        <ciudad>Minatitlán</ciudad>
+        <estado>Veracruz</estado>
+        <horario>Lunes a viernes de 8:30 a 17:00</horario>
+    </sucursal>
+</sucursales>
