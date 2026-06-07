@@ -16,6 +16,19 @@ function cargarTabla (){
     xhttp.send()
 }
 
+function TarjetaServicio(servicio){
+    return `
+        <td>
+            <p><img class="img-tarjeta" src="" alt="Imagen de servicio"></p>
+            <p>Nombre: ${servicio.getElementsByTagName("nombre")[0].childNodes[0].nodeValue}</p>
+            <p>Descripción: ${servicio.getElementsByTagName("descripcion")[0].childNodes[0].nodeValue}</p>
+            <p>Costo: ${servicio.getElementsByTagName("costo")[0].childNodes[0].nodeValue}</p>
+            <p>Duración: ${servicio.getElementsByTagName("duracion")[0].childNodes[0].nodeValue}</p>
+            <p>Vehículo: ${servicio.getElementsByTagName("vehiculo")[0].childNodes[0].nodeValue}</p>
+        </td>
+    `
+}
+
 function miFuncion(cd, origen) {
     let table="";
     let cont = 0;
@@ -28,13 +41,7 @@ function miFuncion(cd, origen) {
         if(origen == "inicio"){
             vehiculos.add(cd[i].getElementsByTagName("vehiculo")[0].childNodes[0].nodeValue)
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de servicio'></p>" +
-        "<p>Nombre: " + cd[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Descripción: " + cd[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Costo: " + cd[i].getElementsByTagName("costo")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Duración: " + cd[i].getElementsByTagName("duracion")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Vehículo: " + cd[i].getElementsByTagName("vehiculo")[0].childNodes[0].nodeValue + "</p>" +
-        "</td>";
+        table += TarjetaServicio(cd[i])
         cont ++;
         if (cont >= 4){
             table += "</tr>"

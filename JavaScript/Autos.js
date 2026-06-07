@@ -15,6 +15,20 @@ function cargarTabla (){
     xhttp.send()
 }
 
+function tarjetaAuto(auto){
+    return `
+        <td>
+            <p><img class="img-tarjeta" src="" alt="Imagen de auto"></p>
+            <p>Marca: ${auto.getElementsByTagName("marca")[0].childNodes[0].nodeValue}</p>
+            <p>Modelo: ${auto.getElementsByTagName("modelo")[0].childNodes[0].nodeValue}</p>
+            <p>Año: ${auto.getElementsByTagName("anio")[0].childNodes[0].nodeValue}</p>
+            <p>Color: ${auto.getElementsByTagName("color")[0].childNodes[0].nodeValue}</p>
+            <p>Precio: ${auto.getElementsByTagName("precio")[0].childNodes[0].nodeValue}</p>
+            <p>Numero de puertas: ${auto.getElementsByTagName("noPuertas")[0].childNodes[0].nodeValue}</p>
+        </td>
+    `
+}
+
 function miFuncion(cd, origen) {
     let table="";
     let cont = 0;
@@ -22,6 +36,7 @@ function miFuncion(cd, origen) {
     const anios = new Set()
     const colores = new Set()
     const puertas = new Set()
+
     for (let i = 0; i < cd.length; i++) {
         if(cont == 0){
             table += "<tr>"
@@ -33,16 +48,7 @@ function miFuncion(cd, origen) {
             colores.add(cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue)
             puertas.add(cd[i].getElementsByTagName("noPuertas")[0].childNodes[0].nodeValue)
         }
-        
-        /*cargarFiltros(cd[i])*/
-        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de auto'></p>" +
-        "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Color: " + cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Precio: " + cd[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Numero de puertas: " + cd[i].getElementsByTagName("noPuertas")[0].childNodes[0].nodeValue + "</p>" +
-        "</td>";
+        table += tarjetaAuto(cd[i])
         cont ++;
         if (cont >= 4){
             table += "</tr>"

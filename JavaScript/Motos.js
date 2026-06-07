@@ -16,6 +16,20 @@ function cargarTabla (){
     xhttp.send()
 }
 
+function TarjetaMoto(moto){
+    return `
+        <td>
+            <p><img class="img-tarjeta" src="" alt="Imagen de moto"></p>
+            <p>Marca: ${moto.getElementsByTagName("marca")[0].childNodes[0].nodeValue}</p>
+            <p>Modelo: ${moto.getElementsByTagName("modelo")[0].childNodes[0].nodeValue}</p>
+            <p>Año: ${moto.getElementsByTagName("anio")[0].childNodes[0].nodeValue}</p>
+            <p>Color: ${moto.getElementsByTagName("color")[0].childNodes[0].nodeValue}</p>
+            <p>Precio: ${moto.getElementsByTagName("precio")[0].childNodes[0].nodeValue}</p>
+            <p>Cilindrada: ${moto.getElementsByTagName("cilindrada")[0].childNodes[0].nodeValue}</p>
+        </td>
+    `
+}
+
 function miFuncion(cd, origen){
     let table = "";
     let cont = 0;
@@ -33,14 +47,7 @@ function miFuncion(cd, origen){
             colores.add(cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue)
             cilindradas.add(cd[i].getElementsByTagName("cilindrada")[0].childNodes[0].nodeValue)
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de moto'></p>" +
-        "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Color: " + cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Precio: " + cd[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Cilindrada: " + cd[i].getElementsByTagName("cilindrada")[0].childNodes[0].nodeValue + "</p>" +
-        "</td>";
+        table += TarjetaMoto(cd[i])
         cont++;
         if (cont >= 4){
             table += "</tr>"

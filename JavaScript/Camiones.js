@@ -16,10 +16,25 @@ function cargarTabla (){
     xhttp.send()
 }
 
+function TarjetaCamion(camion){
+    return `
+        <td>
+            <p><img class="img-tarjeta" src="" alt="Imagen de camión"></p>
+            <p>Marca: ${camion.getElementsByTagName("marca")[0].childNodes[0].nodeValue}</p>
+            <p>Modelo: ${camion.getElementsByTagName("modelo")[0].childNodes[0].nodeValue}</p>
+            <p>Año: ${camion.getElementsByTagName("anio")[0].childNodes[0].nodeValue}</p>
+            <p>Color: ${camion.getElementsByTagName("color")[0].childNodes[0].nodeValue}</p>
+            <p>Precio: ${camion.getElementsByTagName("precio")[0].childNodes[0].nodeValue}</p>
+            <p>Tonelaje: ${camion.getElementsByTagName("tonelaje")[0].childNodes[0].nodeValue}</p>
+            <p>Numero de ruedas: ${camion.getElementsByTagName("noRuedas")[0].childNodes[0].nodeValue}</p>
+            <p>Tipo de contenedor: ${camion.getElementsByTagName("contenedor")[0].childNodes[0].nodeValue}</p>
+        </td>
+    `
+}
+
 function miFuncion(cd, origen){
     let table = "";
     let cont = 0;
-
     const marcas = new Set()
     const anios = new Set()
     const colores = new Set()
@@ -39,16 +54,7 @@ function miFuncion(cd, origen){
             ruedas.add(cd[i].getElementsByTagName("noRuedas")[0].childNodes[0].nodeValue)
             contenedores.add(cd[i].getElementsByTagName("contenedor")[0].childNodes[0].nodeValue)
         }
-        table += "<td><p>" + "<img class='img-tarjeta' src='' alt='Imagen de camión'></p>" +
-        "<p>Marca: " + cd[i].getElementsByTagName("marca")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Modelo: " + cd[i].getElementsByTagName("modelo")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Año: " + cd[i].getElementsByTagName("anio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Color: " + cd[i].getElementsByTagName("color")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Precio: " + cd[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Tonelaje: " + cd[i].getElementsByTagName("tonelaje")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Numero de ruedas: " + cd[i].getElementsByTagName("noRuedas")[0].childNodes[0].nodeValue + "</p><p>" +
-        "Tipo de contenedor: " + cd[i].getElementsByTagName("contenedor")[0].childNodes[0].nodeValue + "</p>" +
-        "</td>";
+        table += TarjetaCamion(cd[i])
         cont++;
         if (cont >= 4){
             table += "</tr>"
