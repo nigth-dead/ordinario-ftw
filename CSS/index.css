@@ -14,7 +14,7 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
-.cont{
+.cont-login{
     display: flex;
     height: calc(100% - 45px);
     align-items: center;
@@ -27,7 +27,7 @@ body{
     z-index: -1;
 }
 
-.cont-login {
+.cont-formulario {
     background-color: #334155;
     width: 30%;
     height: 70%;
