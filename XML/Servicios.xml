@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE servicios SYSTEM "Servicios.dtd">
+
+<servicios>
+    <servicio>
+        <nombre>Cambio de aceite</nombre>
+        <descripcion>Reemplazo de aceite de motor y revisión de niveles básicos del vehículo.</descripcion>
+        <costo>$850</costo>
+        <duracion>45 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Revisión de frenos</nombre>
+        <descripcion>Inspección de balatas, discos, líquido de frenos y funcionamiento general.</descripcion>
+        <costo>$600</costo>
+        <duracion>40 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Alineación y balanceo</nombre>
+        <descripcion>Ajuste de dirección y balanceo de llantas para mejorar estabilidad y manejo.</descripcion>
+        <costo>$750</costo>
+        <duracion>1 hora</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Diagnóstico con escáner</nombre>
+        <descripcion>Revisión electrónica del vehículo para detectar fallas en sensores o sistema del motor.</descripcion>
+        <costo>$500</costo>
+        <duracion>30 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Lavado exterior</nombre>
+        <descripcion>Limpieza exterior del vehículo, incluyendo carrocería, vidrios y rines.</descripcion>
+        <costo>$180</costo>
+        <duracion>25 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Lavado completo</nombre>
+        <descripcion>Limpieza interior y exterior del vehículo con aspirado y detallado básico.</descripcion>
+        <costo>$350</costo>
+        <duracion>1 hora</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Detallado automotriz</nombre>
+        <descripcion>Limpieza profunda de interiores, pulido exterior y protección de pintura.</descripcion>
+        <costo>$1500</costo>
+        <duracion>4 horas</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Cambio de batería</nombre>
+        <descripcion>Revisión del sistema eléctrico e instalación de batería nueva.</descripcion>
+        <costo>$2200</costo>
+        <duracion>30 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Rotación de llantas</nombre>
+        <descripcion>Cambio de posición de las llantas para mejorar su desgaste y duración.</descripcion>
+        <costo>$300</costo>
+        <duracion>25 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Revisión de suspensión</nombre>
+        <descripcion>Inspección de amortiguadores, resortes, bujes y componentes de suspensión.</descripcion>
+        <costo>$650</costo>
+        <duracion>50 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Cambio de filtros</nombre>
+        <descripcion>Reemplazo de filtro de aire, filtro de aceite y filtro de cabina.</descripcion>
+        <costo>$700</costo>
+        <duracion>35 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Revisión de luces</nombre>
+        <descripcion>Verificación de faros, direccionales, luces traseras y luces interiores.</descripcion>
+        <costo>$250</costo>
+        <duracion>20 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Instalación de accesorios</nombre>
+        <descripcion>Colocación de accesorios como tapetes, cámaras, sensores o soportes.</descripcion>
+        <costo>$900</costo>
+        <duracion>1 hora</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Prueba de manejo</nombre>
+        <descripcion>Servicio para probar un vehículo antes de realizar una compra.</descripcion>
+        <costo>Gratis</costo>
+        <duracion>20 minutos</duracion>
+    </servicio>
+
+    <servicio>
+        <nombre>Cotización de seguro</nombre>
+        <descripcion>Asesoría para calcular opciones de seguro vehicular según el modelo elegido.</descripcion>
+        <costo>Gratis</costo>
+        <duracion>30 minutos</duracion>
+    </servicio>
+</servicios>
