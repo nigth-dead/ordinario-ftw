@@ -69,7 +69,7 @@ a:hover{
 
 .cont-inferior{
     position: relative;
-    height: 100%;
+    height: calc(100vh - 85px);
 }
 
 .eslogan{
@@ -124,11 +124,13 @@ a:hover{
         height: 45px;
         overflow-x: auto;
         justify-content: flex-start;
+        white-space: nowrap;
     }
 
     li{
         width: auto;
         min-width: 95px;
+        flex-shrink: 0;
     }
 
     a{

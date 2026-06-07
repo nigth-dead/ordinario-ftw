@@ -93,9 +93,17 @@ a{
     color: #334155;
 }
 
+.imagen-contacto{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-contactanos{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .info-contacto a {
@@ -117,3 +125,94 @@ a{
     font-size: 14px;
 }
 
+@media (max-width: 480px) {
+
+    .encabezado{
+        height: 40px;
+        font-size: 22px;
+    }
+
+    ul{
+        height: 45px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    li{
+        width: auto;
+        min-width: 95px;
+        flex-shrink: 0;
+    }
+
+    a{
+        font-size: 12px;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+
+    .icono-nav-bar{
+        height: 24px;
+        margin-right: 4px;
+    }
+
+    .cont-inferior{
+        display: block;
+        height: calc(100vh - 85px);
+        padding: 10px;
+        padding-bottom: 55px;
+        overflow: auto;
+        box-sizing: border-box;
+    }
+
+    .info-contacto{
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        align-items: flex-start;
+    }
+
+    .info-contacto h1{
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        margin: 5px 0 10px 0;
+    }
+
+    .info-contacto h2{
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .info-contacto p{
+        font-size: 16px;
+        margin: 8px 0;
+        line-height: 1.4;
+    }
+
+    .info-contacto a{
+        font-size: 16px;
+        word-break: break-word;
+    }
+
+    .imagen-contacto{
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .img-contactanos{
+        width: 100%;
+        height: auto;
+        max-height: 260px;
+        object-fit: contain;
+    }
+
+    .pie-pagina{
+        font-size: 11px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}

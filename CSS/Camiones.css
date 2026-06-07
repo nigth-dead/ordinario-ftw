@@ -190,3 +190,121 @@ a:hover{
     text-align: center;
     font-size: 14px;
 }
+
+@media (max-width: 480px) {
+
+    .encabezado{
+        height: 40px;
+        font-size: 22px;
+    }
+
+    ul{
+        height: 45px;
+        overflow-x: auto;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    li{
+        width: auto;
+        min-width: 95px;
+        flex-shrink: 0;
+    }
+
+    a{
+        font-size: 12px;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+
+    .icono-nav-bar{
+        height: 24px;
+        margin-right: 4px;
+    }
+
+    .cont-inferior{
+        height: calc(100vh - 85px);
+        overflow: auto;
+    }
+
+    #seccion-filtrado h1{
+        font-size: 24px;
+        padding-bottom: 8px;
+    }
+
+    .btn-filtrado{
+        top: 88px;
+        right: 4%;
+        height: 35px;
+        z-index: 20;
+    }
+
+    #menu-filtrado{
+        width: 85%;
+        right: 5%;
+        top: 130px;
+        padding: 15px;
+        box-sizing: border-box;
+        z-index: 30;
+    }
+
+    .rango-precios{
+        width: 100%;
+    }
+
+    .rango-precios input{
+        width: 47%;
+        box-sizing: border-box;
+    }
+
+    .btns-filtro{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .btn-aplicar-filtro,
+    .btn-limpiar-filtro{
+        width: 100%;
+    }
+
+    #tabla{
+        display: block;
+        width: 100%;
+        border-spacing: 0;
+        padding: 10px 0;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+    }
+
+    #tabla tbody{
+        display: block;
+        width: 100%;
+    }
+
+    #tabla tr{
+        display: block;
+        width: 100%;
+    }
+
+    #tabla td{
+        display: block;
+        width: 96%;
+        margin: 0 auto 15px auto;
+        box-sizing: border-box;
+    }
+
+    .td-vacio{
+        display: none !important;
+    }
+
+    .img-tarjeta{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .pie-pagina{
+        font-size: 11px;
+        background-color: rgba(255, 255, 255, 0.75);
+    }
+}
