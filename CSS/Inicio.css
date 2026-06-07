@@ -108,3 +108,75 @@ a:hover{
     font-size: 14px;
 }
 
+@media (max-width: 480px) {
+
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .encabezado{
+        height: 40px;
+        font-size: 22px;
+    }
+
+    ul{
+        height: 45px;
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+
+    li{
+        width: auto;
+        min-width: 95px;
+    }
+
+    a{
+        font-size: 12px;
+        padding: 0 6px;
+        box-sizing: border-box;
+    }
+
+    .icono-nav-bar{
+        height: 24px;
+        margin-right: 4px;
+    }
+
+    .cont-inferior{
+        height: calc(100vh - 85px);
+        overflow: hidden;
+    }
+
+    #img_inicio{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .cont-logo{
+        width: auto;
+        top: 3%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .logo{
+        width: 100px;
+        border-radius: 35px;
+    }
+
+    .eslogan{
+        width: 85%;
+        top: 55%;
+        left: 5%;
+        font-size: 22px;
+        padding: 14px;
+        box-sizing: border-box;
+    }
+
+    .pie-pagina{
+        font-size: 11px;
+        background-color: rgba(17, 24, 39, 0.75);
+    }
+}
