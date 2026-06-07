@@ -97,3 +97,14 @@ a:hover{
     background-color: rgba(60, 63, 66, 0.8);
     border-radius: 50px;
 }
+
+.pie-pagina{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+

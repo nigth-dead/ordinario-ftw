@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camiones</title>
+    <title>Motos</title>
     <link rel="stylesheet" href="../CSS/Motos.css">
     <link rel="icon" href="../imgs/motorcycle.png">
 </head>
 <body>
-    <div class="encabezado">Concesionaria Cortes</div>
-    <div class="nav-bar">
-        <nav>
+    <header>
+        <div class="encabezado">Concesionaria Cortes</div>
+        <nav class="nav-bar">
             <ul>
                 <li class="borde"><a href="Inicio.html"><img src="../imgs/house.png" alt="" class="icono-nav-bar">Inicio</a></li>
                 <li class="borde"><a href="Autos.html"><img src="../imgs/car.png" alt="" class="icono-nav-bar">Autos</a></li>
@@ -21,11 +21,17 @@
                 <li><a href="Contacto.html"><img src="../imgs/phone.png" alt="" class="icono-nav-bar">Contacto</a></li>
             </ul>
         </nav>
-    </div>
-    <div class="cont-inferior">
-        <table id="tabla"></table>
-    </div>
+    </header>
+    <main class="cont-inferior">
+        <section class="seccion-motos">
+            <h1>Motos disponibles</h1>
+            <table id="tabla"></table>
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <p>Concesionaria Cortes © 2026</p>
+    </footer>
+    <script src="../JavaScript/Imagenes.js"></script>
+    <script src="../JavaScript/Motos.js"></script>
 </body>
-<script src="../JavaScript/Imagenes.js"></script>
-<script src="../JavaScript/Motos.js"></script>
 </html>

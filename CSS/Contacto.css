@@ -52,7 +52,7 @@ a{
     color: black;
 }
 
-a:hover{
+.nav-bar a:hover{
     background-color: #f59e0b;
     color: black;
 }
@@ -65,7 +65,7 @@ a:hover{
 
 .cont-inferior{
     display: flex;
-    height: calc(100% - 85px);
+    height: calc(100% - 110px);
     padding: 15px;
     box-sizing: border-box;
     overflow: auto;
@@ -83,7 +83,7 @@ a:hover{
 }
 
 .info-contacto h2{
-    font-size: 30px;
+    font-size: 25px;
     color: #1E293B;
     text-align: center;
 }
@@ -94,5 +94,26 @@ a:hover{
 }
 
 .img-contactanos{
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
+
+.info-contacto a {
+    display: inline;
+    color: blue;
+}
+
+.info-contacto a:hover {
+    text-decoration: underline;
+}
+
+.pie-pagina{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
